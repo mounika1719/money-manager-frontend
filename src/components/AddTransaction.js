@@ -13,7 +13,7 @@ export const AddTransaction = () => {
       amount: +amount
     }
     addTransaction(newTransaction);
-  }
+    }
   return (
     <>
       <h3>Add new transaction</h3>
